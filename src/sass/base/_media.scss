@@ -68,12 +68,13 @@
            font-size: 14px;
         }
     }
+    .title {
+        font-size: 25px;
+    }
     .advantages {
         min-height: 0px;
         padding: 45px 0 40px 0;
-        &__title {
-            font-size: 25px;
-        }
+
         &__items {
             margin-top: 35px;
             width: 155px;
@@ -158,12 +159,13 @@
            font-size: 14px;
         }
     }
+    .title {
+        font-size: 20px;
+    }
     .advantages {
         min-height: 0px;
         padding: 20px 0 40px 0;
-        &__title {
-            font-size: 20px;
-        }
+
         &__block {
             margin-top: 5px;
             flex-direction: column;
