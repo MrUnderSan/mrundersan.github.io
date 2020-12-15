@@ -2,11 +2,57 @@
     .container {
         max-width: 950px;
     }
+    .carousel {
+        padding: 45px 0;
+        &__inner {
+            width: 100%;  
+        }
+        .slick-prev, .slick-next {
+            left: 10px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next {
+            left: auto;
+            right: 10px;
+        }
+    
+        .tns-item {
+            img {
+                width: 60%;
+            }
+        }
+    }
 }
 
 @media (max-width: 991px){
     .container {
         max-width: 700px;
+    }
+    .carousel {
+        padding: 45px 0;
+        &__inner {
+            width: 100%;  
+        }
+        .slick-prev, .slick-next {
+            left: 10px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next {
+            left: auto;
+            right: 10px;
+        }
+    
+        .tns-item {
+            img {
+                width: 60%;
+            }
+        }
     }
 }
 
@@ -110,6 +156,29 @@
             font-size: 14px;
             text-align: left;
             line-height: 20px;
+        }
+    }
+    .carousel {
+        padding: 45px 0;
+        &__inner {
+            width: 100%;  
+        }
+        .slick-prev, .slick-next {
+            left: 10px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next {
+            left: auto;
+            right: 10px;
+        }
+    
+        .tns-item {
+            img {
+                width: 50%;
+            }
         }
     }
 
@@ -234,5 +303,27 @@
         width: 250px;
         
     }
-
+    .carousel {
+        padding: 45px 0;
+        &__inner {
+            width: 100%;  
+        }
+        .slick-prev, .slick-next {
+            left: 10px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next {
+            left: auto;
+            right: 10px;
+        }
+    
+        .tns-item {
+            img {
+                width: 50%;
+            }
+        }
+    }
 }
