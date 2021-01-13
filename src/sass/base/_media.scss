@@ -326,4 +326,26 @@
             }
         }
     }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            margin-top: 35px;
+        }
+        &__tab {
+            margin-top: 15px;
+        }
+    }
+    .reviews {
+        &__block {
+            flex-direction: column;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__text {
+            padding: 10px 15px 0;
+            margin-left: 0;
+        }        
+    }
 }
